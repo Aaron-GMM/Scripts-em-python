@@ -1,7 +1,7 @@
 from CaixaEletronic import CaixaEletronico
 
 def main():
-    caixa = CaixaEletronico()  # Crie uma instância de CaixaEletronico
+    caixa = CaixaEletronico()  
     e = True
     while e:
         c = int(input("Digite\n(1)-Depositar\n(2)-Sacar\n(3)-Visualizar Status\n(4)-sair: "))
