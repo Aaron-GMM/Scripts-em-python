@@ -1,6 +1,6 @@
 class CaixaEletronico:
     def __init__(self):
-        self.saldo = 0.0  # Inicialize o saldo como 0
+        self.saldo = 0.0  
 
     def depositar(self, money):
         self.saldo += money
